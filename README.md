@@ -1,5 +1,5 @@
 # One Bit Code
-
+(Curso em andamento...)
 <hr>
 Repositorio dedicado a armazenar os conteudos apresentados no curso da One Bit Code (https://www.linkedin.com/school/onebitcode/) que aborda os seguintes temas:
 
