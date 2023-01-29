@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com eventos no JavaScript</title>
+    <script src="./index.js" defer></script> <!--O atributo DEFER faz com que o script só seja carregado depois da página-->
+    <!--Nesse exemplo, como o evento é gerado no JS aconteceria um erro se não fosse feito assim-->
+    <!--Tem o mesmo resultado de colocar a tag SCRIPT no final do BODY-->
+</head>
+<body>
+    <h1>Eventos no JavaScript</h1>
+    <hr>
+    <section>
+        <label for="NomeLabel">Nome de usuario: </label>
+        <input type="text" name="NomeInput" id="NomeInput" >
+        <br>
+        <label for="SenhaLabel">Senha: </label>
+        <input type="text" name="SenhaInput" id="SenhaInput">
+        <br>
+        <label for="ConfirmaLabel">Confirme a senha: </label>
+        <input type="text" name="ConfirmaInput" id="ConfirmaInput">
+        <br>
+        <button id="RegistrarButton">Registrar</button>
+        <button id="RemoverButton" onclick="Remover()">Remover evento</button>
+
+
+    </section>
+
+</body>
+</html>

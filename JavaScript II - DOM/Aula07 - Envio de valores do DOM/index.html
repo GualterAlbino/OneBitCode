@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviando valores do DOM para o JavaScript</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <h1>Enviando valores do DOM para o JavaScript</h1>
+    <hr>
+    <section>
+        <label for="username">Nome de usuario:</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Informe a senha:</label>
+        <input type="text" name="password" id="password">
+        <br>
+        <label for="confirmpassword">Confirme a senha:</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <button onclick="Registrar(this.parentNode)">Registrar</button>
+        <!--parentNode devolve a divisão PAI, nesse caso a SECTION inteira-->
+    </section>
+   
+</body>
+</html>
