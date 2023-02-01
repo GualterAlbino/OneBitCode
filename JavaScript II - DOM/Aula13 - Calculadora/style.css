@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Declaração de variaveis de cor*/
+:root {
+  --bg-color: #212529; /*Cor de fundo*/
+  --border-color: #666;
+  --font-color: #f1f5f9; /*Cor do tema claro*/
+  --primary-color: #4dff91; /*Cor elementar dos botões*/
+  --error-color: #ff0043; /*Cor da mensagem de erro*/
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: "Ubuntu", sans-serif;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 0 1.5rem 2.5rem;
+  position: relative;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+#TrocarTema {
+  background-color: var(--bg-color);
+  border: .125rem solid var(--font-color);
+  color: var(--font-color);
+}
+
+#TrocarTema:hover {
+  background-color: var(--font-color);
+  color: var(--bg-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: .25rem;
+  font-weight: 700;
+  padding: .5rem 1rem;
+  transition: .15s;
+}
+
+input {
+  background-color: var(--bg-color);
+  border: 2px solid var(--border-color);
+  border-radius: .5rem;
+  color: var(--font-color);
+  display: block;
+  font-size: 1.75rem;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: end;
+  width: 100%;
+}
+
+#Tecla {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+#Tecla button {
+  color: var(--bg-color);
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#Tecla button:hover {
+  filter: brightness(0.8);
+}
+
+#Resultado {
+  border-width: 2px 2px 2px 0;
+  border-radius: 0 .5rem .5rem 0;
+}
+
+#CopiarParaTransferencia {
+  background-color: transparent;
+  border: solid var(--border-color);
+  border-width: 2px;
+  border-radius: .5rem 0 0 .5rem;
+  color: var(--font-color);
+  cursor: pointer;
+  display: block;
+  height: 4.25rem;
+  width: 6rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.error {
+  background-color: var(--error-color);
+}
+
+.sucesso {
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}

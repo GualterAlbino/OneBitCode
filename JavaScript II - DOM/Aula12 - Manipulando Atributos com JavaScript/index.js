@@ -31,6 +31,8 @@ document.getElementById('type').addEventListener('click',function(){
 //Colocar o texto de fundo
 document.getElementById('placeholder').addEventListener('click',function () {
     input.placeholder = 'Digite algo....';
+
+
 });
 
 //Desabilitar o input
@@ -45,3 +47,5 @@ document.getElementById('data').addEventListener('click',function(){
     input.dataset.somethingElse = 'Algum outro valor'
     console.log("O valor do atributo data-something-else agora é: " + input.dataset.somethingElse);
 });
+
+input.attributes.disa
