@@ -1,0 +1,22 @@
+Existem três tipos?
+
+--Session Storage (Armazenamento de Sessão)
+-Ex: Armazena a informação de que você está logado e permite que você navegue entre as 
+ páginas daquele site
+-Existe apenas enquanto a aba/navegador estão abertos, ao fechar tudo é perdido
+
+--Local Storage (Armazenamento Local)
+-Armazena os dados mesmo após você fechar a aba/janela do navegador
+-Fica salva mesmo se o navegador seja fechado, só tem a informação perdida se a aplicação ou o usuario remover manualmente
+-Ex: Lembrar da minhas sessão/Continuar conectado
+
+--Cookies
+-Dados armazenados em pequenos documentos de texto no computador do cliente
+-Podem ter uma data de expiração
+-São enviados nas requisições e podem existir no servidor(back-end) e são devolvidas
+ quando uma página html for solicitada
+
+
+ Se você acessar o console da página e ir até a opção lateral você pode acessar a opção:
+
+ Application, que permite visualizar os três tipos de informações
