@@ -26,3 +26,5 @@ function addInput(){
     */
 
 }
+
+window.dom

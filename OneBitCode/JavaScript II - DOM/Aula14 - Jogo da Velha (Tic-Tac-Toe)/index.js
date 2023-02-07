@@ -66,7 +66,7 @@ function handleBoardClick(ev) {
   const row = rowColumnPair[0]
   const column = rowColumnPair[1]
   // Marca a região clicada com o símbolo do jogador
-  if (turnPlayer === 'player1') {
+  if (turnPlayer === 'player1') {s
     span.innerText = 'X'
     vBoard[row][column] = 'X'
   } else {

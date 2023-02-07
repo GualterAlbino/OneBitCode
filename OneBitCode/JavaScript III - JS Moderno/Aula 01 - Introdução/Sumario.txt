@@ -1,0 +1,15 @@
+
+Topicos:
+
+-Situação do JS moderno;
+
+-Novos Recursos do JS 
+    -Template Literals;
+    -Desestruturação;
+    -Modulos.
+
+-Gerenciamento de pacotes com NPM;
+
+-Compilação do JS com o Babel;
+
+-Empacotamento(bundling);

@@ -49,3 +49,5 @@ document.getElementById('data').addEventListener('click',function(){
 });
 
 input.attributes.disa
+
+//input.style.backgroundColor = '#fff'

@@ -1,0 +1,18 @@
+O que foi aprendido ate agora já existem a bastante tempo,
+mas não reflete a situação atual dele, já que tem sido constantemente atualizado. Sendo as versões:'
+
+ES1 - 1997
+ES2 - 1998
+ES3 - 1999
+ES4 - Nunca foi lançada
+ES5 - 2009
+
+Em 2015 recebeu uma grande atualização e mudou ao modelo de versões por ano, usando o mesmo como identificação,
+ficando assim:
+
+ES6 - 2015
+ES2016
+ES2017
+ES2018
+etc...
+

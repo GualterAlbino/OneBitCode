@@ -82,6 +82,7 @@ document.getElementById('TrocarTema').addEventListener('click',function(){
        root.style.setProperty('--border-color', '#666');
        root.style.setProperty('--font-color', '#f1f5f9');
        root.style.setProperty('--primary-color', '#4dff91');
+       
 
        main.dataset.tema = 'Escuro';
 
@@ -108,3 +109,4 @@ document.getElementById('CopiarParaTransferencia').addEventListener('click',func
     }
 
 });
+
