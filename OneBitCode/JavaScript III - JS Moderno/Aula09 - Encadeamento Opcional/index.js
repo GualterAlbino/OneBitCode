@@ -37,3 +37,4 @@ console.log(user?.brothers?.length)
 console.log(user?.name)
 
 //Verifica e caso der erro retorna UNDEFINED
+//Caso não tenha o que você procura eme retorna UNDEFINED em vez de retornar ERRO
