@@ -1,0 +1,26 @@
+Scripts do npm
+
+Servem para executar as chaves do Package.Json, por exemplo:
+
+
+-Maneira que vem
+{
+    "scripts:"{
+        "test": "echo \ Error: no teste"
+    }
+}
+
+
+-Exemplo de alteração
+
+{
+    "scripts:"{
+        "hello": "npx hello-world-npm"
+    }
+}
+
+
+chamando no prompt: npm run hello
+
+Dessa forma ele facilita a execução de comandos muito longos
+Outro exemplo de uso seria a execução do proprio programa

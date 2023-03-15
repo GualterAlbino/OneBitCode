@@ -1,0 +1,20 @@
+npm init -y  (o -y responde automaticamente as perguntas)
+
+npm i --save hello-world-npm (Instala o pacote de teste (Ao executar ele apenas imprime hello world))
+
+
+NPX - É um comando para executar as bibliotecas instaladas pela linha de comando
+(Executaveis NPX) NPX são os executaveis do npm
+
+Um exemplo é o pacote hello world instalado no topico acima, onde podemos executar ele pelo prompt
+
+
+Para identificar quais pacotes são executaveis devemos verificar na documentação, e podemos olhar
+também ao abrir a pasta Node_Modules, na pasta ".bin" que é um link simbolico, que nada mais é 
+que um atalho para o executavel
+
+Comando para executar: npx hello-world-npm
+
+Utilidade: Existem vários pacotes que precisamos executar pela linha de comando
+NPX são os executaveis do npm
+
