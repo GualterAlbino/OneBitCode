@@ -1,0 +1,17 @@
+{
+  "name": "Aula28-Utilizando_Plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
